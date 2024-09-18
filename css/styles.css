@@ -93,7 +93,11 @@ a {
 .contact-link:focus {
   color: #404bbf;
 }
-
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 /* /Header Styles */
 
 /* Hero Styles */
@@ -220,8 +224,10 @@ a {
 /* Footer Styles */
 .page-footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
 .logo-footer {
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -229,15 +235,18 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-bottom: 16px;
 }
 .text-logo-footer {
   color: #f4f4fd;
 }
 .text-footer {
+  line-height: 1.5;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 /* /Footer Styles */
